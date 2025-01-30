@@ -1,5 +1,6 @@
 # Power_monitoring_system
-Power monitor system ,using STM 32 wb with the monitoring and the estimate levels.
+* Power monitor system ,using STM 32 wb with the monitoring and the estimate levels.
+* It also has a local ML model written in C , that predicts the consumption.
 
 # Setup:
 1. Stm32 nucleo
@@ -7,6 +8,10 @@ Power monitor system ,using STM 32 wb with the monitoring and the estimate level
 3. voltage sensor and current sensor
 4. A custom voltage source (VCC) generated from scratch (as a store bought one is very expensive)
    ( Ill add the assemby for the source as well ;) )
+5. Relays (mostly)
+6. Multimeter
+7. LCD display
+8. Raspberry pi 4B (optional)
 
 # MQTT client in STM32 :
 1. https://medium.com/@alirezabeigimech/mqtt-and-lwip-on-stm32-1-tcp-client-75d67e67ab65
