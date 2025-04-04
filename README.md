@@ -14,7 +14,14 @@ Voltage sensor connected to pin A1 --> ADC1 IN2
 5. Multimeter
 6. LCD display
 7. Raspberry pi 4B (optional)
+## Serial Output:
+![image](https://github.com/user-attachments/assets/dff2e7af-2b8a-4a9a-91bd-becc1ddfc7e2)
 
+## Issues,Todo:
+1. Output of the Voltage source --> Takes rounded values.
+2. Should set up lcd
+3. direct connection to cloud (must be set up)
+   
 # MQTT client in STM32 :
 1. https://medium.com/@alirezabeigimech/mqtt-and-lwip-on-stm32-1-tcp-client-75d67e67ab65
 2. https://medium.com/@alirezabeigimech/sudo-nano-etc-mosquitto-mosquitto-conf-6dfbb0045779
