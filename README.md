@@ -6,6 +6,9 @@ Current sensor connected to pin AO -> ADC1 IN1
 Voltage sensor connected to pin A1 --> ADC1 IN2
 
 # Setup:
+![1743954292348](https://github.com/user-attachments/assets/5e0cbd79-a1f6-4c72-9d6b-ae4d34b7799d)
+* A variac is used for transforming the input AC value to a stepped down value with quantization at 2 4 6 8 10 12.
+* Output dc voltage --> tested with multimeter.
 1. Stm32 nucleo
 2. dht 11 for moisture levels
 3. voltage sensor and current sensor
@@ -14,13 +17,16 @@ Voltage sensor connected to pin A1 --> ADC1 IN2
 5. Multimeter
 6. LCD display
 7. Raspberry pi 4B (optional)
+ *  Final set up of the components connected:
+   ![1743954292330](https://github.com/user-attachments/assets/03ee648e-27ff-4ee0-aaad-58514c441d54)
+
 ## Serial Output:
-![image](https://github.com/user-attachments/assets/dff2e7af-2b8a-4a9a-91bd-becc1ddfc7e2)
+![image width=50%](https://github.com/user-attachments/assets/dff2e7af-2b8a-4a9a-91bd-becc1ddfc7e2)
 
 ## Issues,Todo:
 1. Output of the Voltage source --> Takes rounded values.
 2. Should set up lcd
-3. direct connection to cloud (must be set up)
+3. direct connection to cloud (must be set up) -->Used esp01 for connection to cloud (thinkspeak) using AT commands and it's not working for now.
    
 # MQTT client in STM32 :
 1. https://medium.com/@alirezabeigimech/mqtt-and-lwip-on-stm32-1-tcp-client-75d67e67ab65
@@ -35,6 +41,5 @@ Voltage sensor connected to pin A1 --> ADC1 IN2
 # and ...
 I took wayy more time than what I had promised due to un forseen conditions
 
-Aioo , Anbuselvi ma'am please forgive me , Im sorry :/
 
 
