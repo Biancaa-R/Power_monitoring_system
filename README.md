@@ -23,6 +23,14 @@ Voltage sensor connected to pin A1 --> ADC1 IN2
 ## Serial Output:
 ![image width=50%](https://github.com/user-attachments/assets/dff2e7af-2b8a-4a9a-91bd-becc1ddfc7e2)
 
+variations in reading depending on voltage:
+(Expected reading of 2v -->gives around 1v)
+![image](https://github.com/user-attachments/assets/726f0003-5725-4f35-95ee-a689b0c88ccb)
+output through a multimeter:
+![1743966240337](https://github.com/user-attachments/assets/085bc8f8-d8ab-4f01-b0f8-887d9a639a30)
+
+
+
 ## Issues,Todo:
 1. Output of the Voltage source --> Takes rounded values.
 2. Should set up lcd
